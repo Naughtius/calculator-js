@@ -5,8 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+    <div class="calculator">
+        <div class="calculator-title">Сalculator</div>
+        <input type="text" class="form-control calculator-form">
+        <div class="calculator-wrap">
+            <div class="calculator-wrap__row">
+                <input type="button" value="AC" class="btn btn-primary calculator-wrap__clean">
+                <input type="button" value="(" class="btn btn-primary calculator-wrap__bkt">
+                <input type="button" value=")" class="btn btn-primary calculator-wrap__bkt">
+                <input type="button" value="/" class="btn btn-primary calculator-wrap__symbol">  
+            </div>
+            <div class="calculator-wrap__row">
+                <input type="button" value="1" class="btn btn-outline-primary calculator-wrap__number">
+                <input type="button" value="2" class="btn btn-outline-primary calculator-wrap__number"> 
+                <input type="button" value="3" class="btn btn-outline-primary calculator-wrap__number">  
+                <input type="button" value="*" class="btn btn-primary calculator-wrap__symbol">   
+            </div>
+            <div class="calculator-wrap__row">
+                <input type="button" value="4" class="btn btn-outline-primary calculator-wrap__number"> 
+                <input type="button" value="5" class="btn btn-outline-primary calculator-wrap__number"> 
+                <input type="button" value="6" class="btn btn-outline-primary calculator-wrap__number"> 
+                <input type="button" value="-" class="btn btn-primary calculator-wrap__symbol">  
+            </div>
+            <div class="calculator-wrap__row">
+                <input type="button" value="7" class="btn btn-outline-primary calculator-wrap__number"> 
+                <input type="button" value="8" class="btn btn-outline-primary calculator-wrap__number"> 
+                <input type="button" value="9" class="btn btn-outline-primary calculator-wrap__number">
+                <input type="button" value="+" class="btn btn-primary calculator-wrap__symbol">
+            </div>
+            <div class="calculator-wrap__row">
+                <input type="button" value="0" class="btn btn-outline-primary calculator-wrap__number"> 
+                <input type="button" value="." class="btn btn-primary">
+                <input type="button" value="=" class="btn btn-primary"> 
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>

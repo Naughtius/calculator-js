@@ -49,6 +49,5 @@ pointBtn.addEventListener("click", () => {
 });
 
 equallyBtn.addEventListener("click", () => {
-    console.log(result)
     textForm.value = eval(result);
 });

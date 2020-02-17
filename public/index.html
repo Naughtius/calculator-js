@@ -45,5 +45,28 @@
         </div>
     </div>
     <script src="main.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyDejAkOvc6maAKcKgl1zlHf1NVejpufmrE",
+        authDomain: "calculatorr-js.firebaseapp.com",
+        databaseURL: "https://calculatorr-js.firebaseio.com",
+        projectId: "calculatorr-js",
+        storageBucket: "calculatorr-js.appspot.com",
+        messagingSenderId: "199414542991",
+        appId: "1:199414542991:web:a3d8493536bb561da6b6fa",
+        measurementId: "G-N0BYK8Q3M7"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
 </body>
 </html>
